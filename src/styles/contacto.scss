@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contactoLista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactos {
+    line-height: 65px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+#lista {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px;
+    box-shadow: 1px 2px 1px;
+    width: 80%;
+}
+
+.container {
+    background-color: rgba($color: #00ffff, $alpha: 0.5);
+    border-radius: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#connectionOn {
+    color: green;
+    border-color: chartreuse;
+    border-bottom: 2px solid;
+}
+
+#connectionOff {
+    color: red;
+    border-color: brown;
+    border-bottom: 2px solid;
+}
+
+#titleForm {
+    margin-bottom: 20px;
+}
+
+#buttonForm {
+    margin-top: 20px;
+}
+
+i {
+    cursor: pointer;
+}
+
